@@ -1,0 +1,46 @@
+/* Style untuk formulir */
+form {
+  max-width: 400px;
+  margin: 50px auto;
+  padding: 20px;
+  border-radius: 10px;
+  background-color: #f9f9f9;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Style untuk input */
+input {
+  margin: 10px 0;
+  padding: 8px;
+  width: 100%;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+  box-sizing: border-box;
+  transition: border-color 0.3s;
+}
+
+/* Style untuk pesan error */
+.error-message {
+  color: red;
+  font-size: 14px;
+}
+
+/* Style untuk pesan sukses */
+.success-message {
+  color: green;
+  font-size: 14px;
+}
+
+/* Style untuk formulir */
+form {
+  max-width: 600px; /* lebar maksimum formulir */
+  margin: 50px auto;
+  padding: 20px;
+  border-radius: 10px;
+  background-color: #f9f9f9;
+  background-image: url('https://quiz.postjung.com/data/28/28145.image1.jpg'); 
+  background-size: cover; /* atur gambar agar mengisi area latar belakang sepenuhnya */
+  background-position: center; /* atur posisi gambar menjadi di tengah-tengah */
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  transform: scale(1.2); /* perbesar formulir */
+}

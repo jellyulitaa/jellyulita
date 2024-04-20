@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Form Validasi</title>
+<link href="./css/style.css" rel="stylesheet">
+<style>
+    #formTitle {
+        text-align: center;
+        margin-bottom: 20px;
+        font-size: 24px;
+    }
+</style>
+</head>
+<body>
+
+<form id="validationForm">
+    <h2 id="formTitle">Regex</h2>
+
+    <label for="email">Email:</label>
+    <input type="text" id="email" data-validation="email" placeholder="Email">
+    
+    <label for="password">Password:</label>
+    <input type="password" id="password" data-validation="password" placeholder="Password">
+    
+    <label for="phone">Phone Number:</label>
+    <input type="text" id="phone" data-validation="phone" placeholder="Phone Number">
+    
+    <label for="date">Date (DD/MM/YYYY):</label>
+    <input type="text" id="date" data-validation="date" placeholder="Date (DD/MM/YYYY)">
+    
+    <label for="nim">NIM:</label>
+    <input type="text" id="nim" data-validation="nim" placeholder="NIM">
+</form>
+
+<script src="./js/validation.js"></script>
+
+</body>
+</html>
